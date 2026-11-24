@@ -8,13 +8,28 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+
 <style>
-:root{
-  --turf:#1f5b2e; --turf-dark:#143d1f; --turf-light:#2a7339;
-  --chalk:#f7f8f3; --soil:#5b4330; --sand:#e9e4d6; --ink:#1b2a1f;
-  --head:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
-  --body:"Barlow",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
-}
+  ... your old CSS stays here ...
+
+  .btn-whatsapp,
+  .btn-whatsapp:visited {
+    display: inline-block;
+    background: #25D366;
+    color: #ffffff !important;
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1.2;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  .btn-whatsapp:hover {
+    background: #1ebe5b;
+    color: #ffffff !important;
+  }
+</style>
+
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;font-family:var(--body);font-size:18px;line-height:1.6;color:var(--ink);background:var(--chalk)}
